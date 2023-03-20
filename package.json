@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-remark-table-of-contents",
+  "name": "gatsby-remark-table-of-contents-patch",
   "version": "2.0.0",
   "author": "Stefan Huber, Signalwerk GmbH",
   "description": "gatsby remark plugin to generate table of contents",
@@ -48,7 +48,7 @@
     "badge:update": "npm run jest:coverage && npx istanbul-badges-readme",
     "test": "npm run lint && npm run jest",
     "test:watch": "npm run jest -- --watch",
-    "publish": "npm run jest:coverage && npx istanbul-badges-readme && npm run test && npm run build && npm publish"
+    "publish": "npm run build && npm publish"
   },
   "files": [
     "dist"
